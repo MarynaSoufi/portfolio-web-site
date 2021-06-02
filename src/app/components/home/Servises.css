@@ -1,0 +1,12 @@
+.cart__wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 2rem;
+  margin-bottom: 4rem;
+  width:50%;
+}
+.servises__header {
+  text-align: center;
+  font-size: 1.8rem;
+}

@@ -1,0 +1,25 @@
+.image {
+  width: 10rem;
+}
+.back {
+  background-color: #dac3e8;
+}
+.quote__wrapper {
+ 
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 60%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  padding: 4rem;
+}
+
+.quote {
+  font-size: 1.5rem;
+  line-height: 2.3rem;
+  margin-left: 1rem;
+}
+.quote__wrapper .quote strong {
+  font-size: 2rem;
+}

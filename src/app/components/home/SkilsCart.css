@@ -1,0 +1,19 @@
+.skil__cart__title-text {
+  padding: 0.5rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  background-color: #764A82;
+  color: white;
+  margin-bottom: 1rem;
+}
+.skil__cart {
+  padding: 2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  background-color: #dac3e8;
+  border:  1px solid transparent;
+  transition: all .4s ease-in-out;
+}
+.skil__cart:hover {
+  border:  1px solid #764A82;
+}

@@ -1,0 +1,32 @@
+.cart {
+  padding: 2rem;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  text-align: center;
+  transition: all .4s ease-in-out;
+}
+.cart:hover {
+    transform: scale(1.1);
+}
+.cart__title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+.cart__title > * {
+  width: 100%;
+}
+.cart__title__image {
+  width: 3.5rem;
+  transition: all .4s ease-in-out
+}
+.cart__title__image:hover {
+  transform: scale(1.1);
+}
+
+.cart__title__text {
+padding-top: 0.5rem;
+ font-size: 1.5rem;
+ font-weight: bold;
+}

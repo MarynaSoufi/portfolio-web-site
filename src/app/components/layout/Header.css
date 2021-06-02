@@ -1,0 +1,15 @@
+.header {
+  background-color: white;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+
+}
+.header__logo {
+  width: 6rem;
+  transition: all .5s ease-in-out;
+  
+}
+.header__logo:hover {
+  transform: scale(1.5); 
+}
