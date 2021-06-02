@@ -12,7 +12,7 @@ import * as Routes from './routes'
 function App() {
   return (
     <div className="app">
-      <Router>
+      <Router basename={'portfolio-web-site'}>
         <Switch>
             <Route exact path={Routes.WORK}>
                 <WorkPage/>
