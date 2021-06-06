@@ -1,13 +1,18 @@
 import React from 'react'
 import './WorkContent.css'
-import WorkCart from './WorkCart'
-import info from '../../data/work.json'
+import WorkCartQuiz from './WorkCartQuiz'
+import WorkCartArne from './WorkCartArne'
+import WorkCartInova from './WorkCartInova'
+import WorkCartFeest from './WorkCartFeest'
 const WorkContent = () => {
   return (
     <div className="container">
       <h2 className='work__text'>My Recent Work</h2>
       <ul className='work__list'>
-        {info.map((i, index) => <WorkCart key={index} data={i}/>)}
+        <WorkCartQuiz/>
+        <WorkCartArne/>
+        <WorkCartInova/>
+        <WorkCartFeest/>
       </ul>
       
     </div>
