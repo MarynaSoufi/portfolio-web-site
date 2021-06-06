@@ -11,13 +11,13 @@ const Footer = () => {
             <p className="text">My social media</p>
             <ul className="list"> 
               <li>
-                <a href=""> <SiInstagram/></a>
+                <a href="https://www.instagram.com/__marinnaa__/" target="_blank"> <SiInstagram/></a>
               </li>
               <li>
-                <a href=""><SiGithub/></a>
+                <a href="https://github.com/MarynaSoufi" target="_blank"><SiGithub/></a>
               </li>
               <li>
-                <a href="https://www.linkedin.com/in/marina-soufi-2a19581b7/"><SiLinkedin/></a>
+                <a href="https://www.linkedin.com/in/marina-soufi-2a19581b7/" target="_blank"><SiLinkedin/></a>
               </li>
             </ul>
           </div>
