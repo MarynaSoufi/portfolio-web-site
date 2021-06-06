@@ -8,4 +8,11 @@
 }
 .navigation__list-item {
   margin-left: 2rem;
+  
+}
+.navigation__list-item a{
+  text-decoration: none;
+}
+.navigation__list-item a .active {
+  text-decoration: underline;
 }

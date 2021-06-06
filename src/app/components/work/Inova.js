@@ -11,7 +11,7 @@ const Inova = ({closed, state}) => {
         <div className="inova__info-wrapper">
           <h2>Project Name: <span>Inova</span></h2>
           <h2>Overwiew: <p>Website for a digital agency, where the user can get acquainted with the basic services of the agency, look at previously completed orders and get acquainted with the team of employees.</p></h2>
-          <h2>Used Technologies end Tools: <span>Eleventy, Nunjucks, Sass, Bootstrap,JavaScript, GitFlow </span></h2>
+          <h2>Used Technologies end Tools: <span>Eleventy, Nunjucks, Sass, Bootstrap, JavaScript, GitFlow </span></h2>
         </div>
         <img className="inova__close" onClick={closed} src={close}></img>
     

@@ -22,3 +22,7 @@ img {
   text-align: center;
   
 }
+.active {
+  text-decoration: underline !important;
+  font-weight: bold;
+}

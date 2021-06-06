@@ -4,9 +4,8 @@ import {
   BrowserRouter as Router,
   Switch,
   Route,
-  Redirect
 } from "react-router-dom";
-import { DetailPage, HomePage, WorkPage, NotFoundPage } from './pages'
+import { HomePage, WorkPage } from './pages'
 import * as Routes from './routes'
 
 function App() {
@@ -17,15 +16,8 @@ function App() {
             <Route exact path={Routes.WORK}>
                 <WorkPage/>
             </Route>
-            <Route exact path={Routes.DETAIL}>
-                <DetailPage/>
-            </Route>
-            <Redirect from={Routes.HOME} to={Routes.LANDING}/>
-            <Route exact path={Routes.LANDING}>
+            <Route path={Routes.HOME}>
                 <HomePage/>
-            </Route>
-            <Route>
-              <NotFoundPage/>
             </Route>
          
         </Switch>
