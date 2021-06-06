@@ -5,8 +5,11 @@ import photo from '../../../profile.png'
 const Header = () => {
   return (
     <header className="header container">
-       <img className="header__logo" src={photo}></img>
+      <a href="/">
+        <img className="header__logo" src={photo}></img>
 
+      </a>
+      
       <MainNav/>
      
     </header>
