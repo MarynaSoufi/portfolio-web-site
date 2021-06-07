@@ -1,6 +1,18 @@
 .image {
   width: 10rem;
 }
+@media  (max-width: 1024px) {
+  .image {
+    width: 28%;
+  }
+}
+@media  (max-width: 768px) {
+  .image {
+    width: 30%;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+  }
+}
 .back {
   background-color: #dac3e8;
 }
@@ -15,11 +27,42 @@
   padding: 4rem;
 }
 
+@media  (max-width: 1024px) {
+  .quote__wrapper {
+    padding: 2rem;
+    width: 90%;
+    flex-wrap: wrap;
+  }
+}
+@media  (max-width: 768px) {
+  .quote__wrapper {
+    padding: .5rem;
+    width: 100%
+  }
+}
+
 .quote {
   font-size: 1.5rem;
   line-height: 2.3rem;
   margin-left: 1rem;
 }
+ @media  (max-width: 1024px) {
+    .quote {
+        width: 70% !important;
+    }
+}
+@media  (max-width: 768px) {
+  .quote {
+    font-size: 1.1rem;
+    width: 100% !important;
+  }
+}
+
 .quote__wrapper .quote strong {
   font-size: 2rem;
+}
+@media  (max-width: 768px) {
+  .quote__wrapper .quote strong {
+    font-size: 1.3rem;
+  }
 }

@@ -30,3 +30,9 @@ padding-top: 0.5rem;
  font-size: 1.5rem;
  font-weight: bold;
 }
+
+@media  (max-width: 768px) {
+  .cart__title__text {
+    font-size: 1.2rem;
+  }
+  }

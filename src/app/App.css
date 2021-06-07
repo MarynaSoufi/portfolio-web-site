@@ -8,6 +8,24 @@
 .container {
   margin: 0 auto;
   padding:  0 2rem;
+  max-width: 80%;
+}
+@media  (max-width: 1024px) {
+  .container {
+    max-width: 90%;
+  }
+}
+
+@media  (max-width: 768px) {
+  .container {
+    max-width: 98%;
+  }
+}
+@media  (max-width: 600px) {
+  .container {
+    max-width: 99%;
+    padding:  0 1rem;
+  }
 }
 ul {
   list-style: none;

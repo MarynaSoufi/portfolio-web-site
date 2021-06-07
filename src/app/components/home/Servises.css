@@ -6,7 +6,31 @@
   margin-bottom: 4rem;
   width:50%;
 }
+@media  (max-width: 1024px) {
+  .cart__wrapper {
+    display: block;
+  }
+  .cart__wrapper div {
+    margin-bottom: 1rem;
+  }
+}
+
+@media  (max-width: 768px) {
+  .cart__wrapper {
+    display: block;
+    width:100%;
+    
+  }
+  .cart__wrapper div {
+    margin-bottom: 1rem;
+  }
+}
 .servises__header {
   text-align: center;
   font-size: 1.8rem;
 }
+@media  (max-width: 768px) {
+  .servises__header {
+    font-size: 1.5rem;
+  }
+  }

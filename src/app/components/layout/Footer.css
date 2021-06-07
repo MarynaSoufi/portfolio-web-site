@@ -29,11 +29,36 @@ footer {
   font-size: 1.2rem;
 
 }
+
+@media  (max-width: 600px) {
+  .copyright {
+    font-size: .8rem;
+    margin-top: 1rem;
+  }
+}
 .wrapper {
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
   width: 60%;
+}
+@media  (max-width: 1024px) {
+  .wrapper {
+    width: 100%;
+  }
+}
+
+@media  (max-width: 290px) {
+  .wrapper {
+    flex-wrap: wrap;
+    align-items: center;
+    text-align: center;
+
+  }
+  .wrapper > * {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
 .list {
   display: flex;
@@ -56,16 +81,29 @@ footer {
   margin-top: 1rem;
 }
 
+@media  (max-width: 600px) {
+  .text {
+    font-size: .9rem;
+  }
+}
+
+
 .contact__list li {
   display: flex;
   align-items: center;
 }
+
 .contact__list li  a{
   margin-left: .5rem;
   color: white;
   text-decoration: none;
   transition: all .3s ease-in-out;
 
+}
+@media  (max-width: 600px) {
+  .contact__list li  a {
+    font-size: .8rem;
+  }
 }
 .contact__list li  a:hover {
   text-decoration: underline;

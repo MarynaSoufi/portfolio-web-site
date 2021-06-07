@@ -6,6 +6,12 @@
   color: white;
   margin-bottom: 1rem;
 }
+
+@media  (max-width: 768px) {
+  .skil__cart__title-text {
+    font-size: 1.2rem;
+  }
+  }
 .skil__cart {
   padding: 2rem;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
