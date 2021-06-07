@@ -4,7 +4,7 @@
   margin: 0 auto;
   margin-top: 2rem;
   margin-bottom: 4rem;
-  width:50%;
+  width: 80%;
 }
 @media  (max-width: 1024px) {
   .cart__wrapper {
@@ -15,16 +15,19 @@
   }
 }
 
-@media  (max-width: 768px) {
+@media  (max-width: 350px) {
   .cart__wrapper {
-    display: block;
-    width:100%;
-    
+   width: 100%;
   }
+ 
+}
+@media  (max-width: 1024px) {
+ 
   .cart__wrapper div {
     margin-bottom: 1rem;
   }
 }
+
 .servises__header {
   text-align: center;
   font-size: 1.8rem;

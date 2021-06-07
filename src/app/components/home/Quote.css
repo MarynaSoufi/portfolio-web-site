@@ -40,6 +40,13 @@
     width: 100%
   }
 }
+@media  (min-width: 769px) {
+  .quote__wrapper {
+    padding: 2rem;
+    width: 100%;
+    flex-wrap: nowrap;
+  }
+}
 
 .quote {
   font-size: 1.5rem;
