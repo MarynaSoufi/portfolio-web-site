@@ -5,7 +5,7 @@ const WorkCartFeest = ({open}) => {
   return (
     <li className='work__list__item padding'>
     <div className='work__image__wrapper'>
-      <img src={image}></img>
+      <img src={image} alt="logo"></img>
     </div>
     <div className='work__info__wrapper'>
       <h2>Gentse Feesten</h2>
