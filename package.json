@@ -2,7 +2,7 @@
   "name": "portfolio-web-site",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://portfolio-web-site-cf60a.web.app/",
+  "homepage": "http://MarynaSoufi.github.io/portfolio-web-site",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.4",
     "@testing-library/react": "^11.1.0",
