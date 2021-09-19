@@ -13,7 +13,7 @@ const WorkCartInova = ({open}) => {
       <p>This project was carried out as part of an educational assigment from Artevelde Hogeshool</p>
       <div className='work__buttons-wrapper'>
         <button onClick={open}  className='work__info__button'>Preview</button>
-        <a  className='work__info__link' href=" https://the8gency.github.io/digital-agency-digital-agency/" target="_blank">Visit site</a>
+        <a className='work__info__link' href=" https://the8gency.github.io/digital-agency-digital-agency/" target="_blank">Visit site</a>
       </div>
       
     </div>
