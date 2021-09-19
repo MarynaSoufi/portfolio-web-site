@@ -15,17 +15,17 @@ const Movie = ({closed, state}) => {
             <h2>Used Technologies end Tools: <span>React, Firebase </span></h2>
         </div>
         
-          <img className="movie__close" onClick={closed} src={close}></img>
+          <img className="movie__close" onClick={closed} src={close} alt="logo"></img>
     
         <div className="movie__foto-wrapper">
           <div>
-            <img src={mobile}></img>
+            <img src={mobile} alt="logo"></img>
           </div>
           <div>
-            <img src={tablet}></img>
+            <img src={tablet} alt="logo"></img>
           </div>
           <div>
-            <img src={laptop}></img>
+            <img src={laptop} alt="logo"></img>
           </div>
           
         </div>

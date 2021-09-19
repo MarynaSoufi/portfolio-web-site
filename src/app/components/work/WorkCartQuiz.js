@@ -16,7 +16,7 @@ const WorkCartQuiz = ({open}) => {
             <button  onClick={open} className='work__info__button'>Preview</button>
          
          
-            <a  className='work__info__link' href="https://pgmgent-pgm-3.github.io/opdracht-1---developer-quiz-MarynaSoufi/" target="_blank">Visit site</a>
+            <a  className='work__info__link' href=" https://pgmgent-pgm-3.github.io/opdracht-1---developer-quiz-MarynaSoufi/" target="_blank">Visit site</a>
           
          
         </div>

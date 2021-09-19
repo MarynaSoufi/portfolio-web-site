@@ -13,17 +13,17 @@ const Feest = ({closed, state}) => {
           <h2>Overwiew: <p>Information site of the Ghent Summer Music Festival. Where the user can get acquainted with all the events, view the events for each day, sort by categories, organizers and by day.</p></h2>
           <h2>Used Technologies end Tools: <span>HTML, CSS, JavaScript, ES6, API </span></h2>
         </div>
-        <img className="feest__close" onClick={closed} src={close}></img>
+        <img className="feest__close" onClick={closed} src={close} alt="logo"></img>
     
         <div className="feest__foto-wrapper">
           <div>
-            <img src={mobile}></img>
+            <img src={mobile} alt="logo"></img>
           </div>
           <div>
-            <img src={tablet}></img>
+            <img src={tablet} alt="logo"></img>
           </div>
           <div>
-            <img src={laptop}></img>
+            <img src={laptop} alt="logo"></img>
           </div>
           
         </div>

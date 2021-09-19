@@ -4,7 +4,7 @@ import photo from '../../../banner1.svg'
 const Hero = () => {
   return (
     <div>
-      <img src={photo}></img>
+      <img src={photo} alt="logo"></img>
     </div>
   )
 }

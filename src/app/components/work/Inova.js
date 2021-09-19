@@ -13,17 +13,17 @@ const Inova = ({closed, state}) => {
           <h2>Overwiew: <p>Website for a digital agency, where the user can get acquainted with the basic services of the agency, look at previously completed orders and get acquainted with the team of employees.</p></h2>
           <h2>Used Technologies end Tools: <span>Eleventy, Nunjucks, Sass, Bootstrap, JavaScript, GitFlow </span></h2>
         </div>
-        <img className="inova__close" onClick={closed} src={close}></img>
+        <img className="inova__close" onClick={closed} src={close} alt="logo"> </img>
     
         <div className="inova__foto-wrapper">
           <div>
-            <img src={mobile}></img>
+            <img src={mobile} alt="logo"></img>
           </div>
           <div>
-            <img src={tablet}></img>
+            <img src={tablet} alt="logo"></img>
           </div>
           <div>
-            <img src={laptop}></img>
+            <img src={laptop} alt="logo"></img>
           </div>
           
         </div>

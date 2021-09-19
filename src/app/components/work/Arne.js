@@ -13,17 +13,17 @@ const Arne = ({closed, state}) => {
           <h2>Overwiew: <p>Web site of a contemporary Belgian artist and sculptor. Where you can find out his biography and see his work. For the convenience of the user, the artist's work can be sorted by year of creation and by category.</p></h2>
           <h2>Used Technologies end Tools: <span>HTML, CSS, JavaScript, JSON</span></h2>
         </div>
-          <img className="arne__close" onClick={closed} src={close}></img>
+          <img className="arne__close" onClick={closed} src={close} alt="logo"></img>
     
         <div className="arne__foto-wrapper">
           <div>
-            <img src={mobile}></img>
+            <img src={mobile} alt="logo"></img>
           </div>
           <div>
-            <img src={tablet}></img>
+            <img src={tablet} alt="logo"></img>
           </div>
           <div>
-            <img src={laptop}></img>
+            <img src={laptop} alt="logo"></img>
           </div>
           
         </div>
